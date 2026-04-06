@@ -1,0 +1,31 @@
+{
+  "id": "your-skill-slug",
+  "name": "Your Skill Name",
+  "version": "1.0.0",
+  "description": "One sentence: what does this skill do?",
+  "author": "Your Name",
+  "license": "MIT",
+  "tier": "free",
+  "frameworks": ["google-ai-edge", "lmstudio", "ollama", "generic"],
+  "requirements": {
+    "apiKeys": []
+  },
+  "input": {
+    "type": "object",
+    "properties": {
+      "exampleParam": {
+        "type": "string",
+        "description": "What this parameter is for"
+      }
+    },
+    "required": ["exampleParam"]
+  },
+  "output": {
+    "type": "object",
+    "properties": {
+      "result": { "type": "string" }
+    }
+  },
+  "ui": { "renderer": "markdown" },
+  "tags": ["your", "tags", "here"]
+}

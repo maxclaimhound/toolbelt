@@ -1,0 +1,31 @@
+{
+  "id": "route-planner",
+  "name": "Route Planner",
+  "version": "1.0.0",
+  "description": "Get directions between two locations. Returns turn-by-turn steps, total distance, and estimated duration.",
+  "author": "AgentSkills",
+  "license": "MIT",
+  "tier": "free",
+  "frameworks": ["google-ai-edge", "lmstudio", "ollama", "generic"],
+  "requirements": { "apiKeys": ["GOOGLE_MAPS_API_KEY"] },
+  "input": {
+    "type": "object",
+    "properties": {
+      "origin": { "type": "string", "description": "Starting location" },
+      "destination": { "type": "string", "description": "Ending location" },
+      "mode": { "type": "string", "enum": ["driving", "walking", "transit", "bicycling"], "description": "Travel mode (default: driving)" }
+    },
+    "required": ["origin", "destination"]
+  },
+  "output": {
+    "type": "object",
+    "properties": {
+      "distance": { "type": "string" },
+      "duration": { "type": "string" },
+      "steps": { "type": "array", "items": { "type": "object" } },
+      "summary": { "type": "string" }
+    }
+  },
+  "ui": { "renderer": "map" },
+  "tags": ["maps", "directions", "routing", "navigation"]
+}

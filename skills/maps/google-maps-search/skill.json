@@ -1,0 +1,52 @@
+{
+  "id": "google-maps-search",
+  "name": "Google Maps Search",
+  "version": "1.0.0",
+  "description": "Search Google Maps for places by query and location. Returns name, address, rating, and coordinates.",
+  "author": "AgentSkills",
+  "license": "MIT",
+  "tier": "free",
+  "frameworks": ["google-ai-edge", "lmstudio", "ollama", "generic"],
+  "requirements": {
+    "apiKeys": ["GOOGLE_MAPS_API_KEY"]
+  },
+  "input": {
+    "type": "object",
+    "properties": {
+      "query": { "type": "string", "description": "Search query e.g. 'pizza near me' or 'HVAC contractors'" },
+      "location": { "type": "string", "description": "Location to search near e.g. 'New York, NY' or '40.7128,-74.0060'" },
+      "radius": { "type": "number", "description": "Search radius in meters (default: 5000)" },
+      "limit": { "type": "number", "description": "Max results to return (default: 5, max: 20)" }
+    },
+    "required": ["query"]
+  },
+  "output": {
+    "type": "object",
+    "properties": {
+      "results": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "address": { "type": "string" },
+            "rating": { "type": "number" },
+            "totalRatings": { "type": "number" },
+            "coordinates": {
+              "type": "object",
+              "properties": {
+                "lat": { "type": "number" },
+                "lng": { "type": "number" }
+              }
+            },
+            "placeId": { "type": "string" },
+            "isOpen": { "type": "boolean" }
+          }
+        }
+      },
+      "count": { "type": "number" }
+    }
+  },
+  "ui": { "renderer": "map" },
+  "tags": ["maps", "search", "location", "places", "google"]
+}
