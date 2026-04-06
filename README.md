@@ -1,4 +1,4 @@
-# AgentSkills
+# Toolbelt
 
 **The skill marketplace for on-device AI.**
 
@@ -6,7 +6,7 @@ On-device models are here — Gemma 4, Apple Intelligence, Phi-4, Qwen. Every ap
 
 Every developer building on-device AI apps is hand-writing the same map skill, the same email composer, the same calendar tool. Thousands of devs, duplicated work, no standard.
 
-AgentSkills fixes that.
+Toolbelt fixes that.
 
 ---
 
@@ -118,7 +118,7 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for the full guide.
 ## Roadmap
 
 - [ ] Web-based skill browser (search, preview, copy)
-- [ ] CLI installer (`agentskills add google-maps-search`)
+- [ ] CLI installer (`toolbelt add google-maps-search`)
 - [ ] npm package for programmatic skill loading
 - [ ] Premium skill tier (complex, API-powered skills)
 - [ ] Skill testing framework
