@@ -2,7 +2,7 @@
 
 **The skill marketplace for local AI.**
 
-On-device models are here — Gemma 4, Apple Intelligence, Phi-4, Qwen. Every app that calls a cloud API today will run locally tomorrow. But there's a gap: the **skills layer**.
+Local models are here — Gemma 4, Apple Intelligence, Phi-4, Qwen. Every app that calls a cloud API today will run locally tomorrow. But there's a gap: the **skills layer**.
 
 Every developer building local AI apps is hand-writing the same map skill, the same email composer, the same calendar tool. Thousands of devs, duplicated work, no standard.
 
