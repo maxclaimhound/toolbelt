@@ -1,10 +1,10 @@
 # Toolbelt
 
-**The skill marketplace for on-device AI.**
+**The skill marketplace for local AI.**
 
 On-device models are here — Gemma 4, Apple Intelligence, Phi-4, Qwen. Every app that calls a cloud API today will run locally tomorrow. But there's a gap: the **skills layer**.
 
-Every developer building on-device AI apps is hand-writing the same map skill, the same email composer, the same calendar tool. Thousands of devs, duplicated work, no standard.
+Every developer building local AI apps is hand-writing the same map skill, the same email composer, the same calendar tool. Thousands of devs, duplicated work, no standard.
 
 Toolbelt fixes that.
 
@@ -12,7 +12,7 @@ Toolbelt fixes that.
 
 ## What is a skill?
 
-A skill is a small, self-contained tool plugin that lets an on-device AI model take actions in the real world — search maps, compose emails, parse data, generate invoices. Drop it into your app, and your model can use it in minutes.
+A skill is a small, self-contained tool plugin that lets an local AI model take actions in the real world — search maps, compose emails, parse data, generate invoices. Drop it into your app, and your model can use it in minutes.
 
 ```
 skills/
@@ -138,4 +138,4 @@ Users are responsible for complying with the Terms of Service of any third-party
 
 ---
 
-*Built for the on-device AI era. The models are here. Now give them hands.*
+*Built for the local AI era. The models are here. Now give them hands.*
