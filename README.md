@@ -132,4 +132,10 @@ MIT — use freely in personal and commercial projects.
 
 ---
 
+## Disclaimer
+
+Users are responsible for complying with the Terms of Service of any third-party APIs, services, or websites they interact with using these skills. The authors make no representations about the legality of any particular use case in any jurisdiction.
+
+---
+
 *Built for the on-device AI era. The models are here. Now give them hands.*
