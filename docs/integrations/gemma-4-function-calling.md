@@ -114,6 +114,21 @@ const executors = {
 
 ---
 
+## Hardware Requirements
+
+| Model | Min RAM | Recommended | Notes |
+|---|---|---|---|
+| E2B | 2GB | Any modern phone | iPhone 15+, Pixel 8+ |
+| E4B | 4GB | 8GB+ | Most laptops, Mac mini M4 base |
+| 26B A4B | 12GB | **48GB** (Mac Studio M4 Pro) | MoE — only 3.8B active at once, very efficient |
+| 31B | 19GB | 64GB+ | Mac Studio M4 Max or higher |
+
+**Sweet spot for 26B A4B:** Mac Studio M4 Pro with 48GB RAM. The MoE architecture means only ~14-16GB of the model is actively used at inference time — so 48GB gives you comfortable headroom for the model, OS, and other apps running simultaneously. Runs near 4B speed with 26B quality.
+
+**64GB** is ideal if budget allows — future-proofs you for 70B+ models as they get released.
+
+---
+
 ## Running Gemma 4 Locally
 
 **Ollama:**
