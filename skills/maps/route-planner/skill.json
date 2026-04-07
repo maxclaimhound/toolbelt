@@ -3,7 +3,7 @@
   "name": "Route Planner",
   "version": "1.0.0",
   "description": "Get directions between two locations. Returns turn-by-turn steps, total distance, and estimated duration.",
-  "author": "AgentSkills",
+  "author": "Toolbelt",
   "license": "MIT",
   "tier": "free",
   "frameworks": ["google-ai-edge", "lmstudio", "ollama", "generic"],

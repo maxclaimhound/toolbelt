@@ -18,12 +18,12 @@ export async function execute(input) {
   const end = endDate ? parseDateTime(endDate, endTime || startTime) : new Date(start.getTime() + 60 * 60 * 1000);
 
   const formatIcal = (dt) => dt.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
-  const uid = `${Date.now()}-${Math.random().toString(36).slice(2)}@agentskills`;
+  const uid = `${Date.now()}-${Math.random().toString(36).slice(2)}@toolbelt`;
 
   const ical = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//AgentSkills//EventCreator//EN',
+    'PRODID:-//Toolbelt//EventCreator//EN',
     'BEGIN:VEVENT',
     `UID:${uid}`,
     `SUMMARY:${title}`,

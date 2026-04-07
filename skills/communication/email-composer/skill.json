@@ -3,7 +3,7 @@
   "name": "Email Composer",
   "version": "1.0.0",
   "description": "Compose a professional email given recipient, subject, and key points. No API key required.",
-  "author": "AgentSkills",
+  "author": "Toolbelt",
   "license": "MIT",
   "tier": "free",
   "frameworks": ["google-ai-edge", "lmstudio", "ollama", "generic"],

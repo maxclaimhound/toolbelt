@@ -1,5 +1,5 @@
 {
-  "name": "agentskills",
+  "name": "toolbelt",
   "version": "0.1.0",
   "description": "The skill marketplace for on-device AI — pre-built tool plugins for Gemma, Apple Intelligence, LM Studio, Ollama, and any OpenAI-compatible agent framework.",
   "keywords": ["ai", "agents", "skills", "tools", "on-device", "llm", "gemma", "ollama", "lmstudio", "tool-calling", "function-calling", "ai-edge"],

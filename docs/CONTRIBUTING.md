@@ -1,4 +1,4 @@
-# Contributing to AgentSkills
+# Contributing to Toolbelt
 
 Thanks for wanting to add a skill. Here's how.
 

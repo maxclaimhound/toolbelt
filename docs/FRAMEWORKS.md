@@ -1,4 +1,4 @@
-# Using AgentSkills with Different Frameworks
+# Using Toolbelt with Different Frameworks
 
 ## Google AI Edge Gallery
 

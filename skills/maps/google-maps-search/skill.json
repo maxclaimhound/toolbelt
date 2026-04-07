@@ -3,7 +3,7 @@
   "name": "Google Maps Search",
   "version": "1.0.0",
   "description": "Search Google Maps for places by query and location. Returns name, address, rating, and coordinates.",
-  "author": "AgentSkills",
+  "author": "Toolbelt",
   "license": "MIT",
   "tier": "free",
   "frameworks": ["google-ai-edge", "lmstudio", "ollama", "generic"],
