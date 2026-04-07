@@ -102,6 +102,19 @@ const toolDef = require('./skills/maps/google-maps-search/skill.json');
 
 ---
 
+## Integration Guides
+
+Detailed setup guides for connecting Toolbelt skills to popular frameworks:
+
+- [Ollama](docs/integrations/ollama.md) — Most popular local AI runtime
+- [LM Studio](docs/integrations/lm-studio.md) — Desktop app with OpenAI-compatible API
+- [Google AI Edge Gallery](docs/integrations/google-ai-edge.md) — On-device AI for mobile
+- [Gemma 4 Function Calling](docs/integrations/gemma-4-function-calling.md) — Google's latest open model
+- [X (Twitter) API via XMCP](docs/integrations/x-api.md) — Official X MCP server
+- [Home Assistant](docs/integrations/home-assistant.md) — Smart home + local AI
+
+---
+
 ## Contributing
 
 Want to add a skill? 
